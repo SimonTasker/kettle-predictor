@@ -4,4 +4,4 @@ services:
     privileged: true
     network_mode: "host"
     volumes:
-      - /mnt/data:/data
+      - /mnt/data/kettle_predictor:/data
