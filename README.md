@@ -1,2 +1,2 @@
-# kettle_monitor
-Kettle Monitor
+# Kettle Predictor
+Kettle Predictor configuration using [River Home Energy](https://github.com/SimonTasker/river-home-energy)
