@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    privileged: true
+    network_mode: "host"
+    volumes:
+      - /mnt/data:/data

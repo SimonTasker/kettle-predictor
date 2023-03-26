@@ -1,3 +1,4 @@
 [submodule "river-home-energy"]
 	path = river-home-energy
 	url = git@github.com:SimonTasker/river-home-energy.git
+	branch = main
