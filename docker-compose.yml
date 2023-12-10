@@ -2,6 +2,11 @@ services:
   app:
     build: .
     privileged: true
-    network_mode: "host"
+    networks:
+      - services_iot
     volumes:
       - /mnt/data/kettle_predictor:/data
+
+networks:
+  services_iot:
+    external: true
